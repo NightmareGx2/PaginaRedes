@@ -1,0 +1,123 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://img.redestelecom.es/wp-content/uploads/2023/09/26132551/Redes-generica.-Adobe-Stock.jpg); 
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #ca0404;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+
+h1 {
+    color: #ff1100;
+    font-size: 2.5em;
+}
+
+h2, h3 {
+    color: #ff0000;
+}
+
+h4 {
+    color: #ffffff;
+}
+
+section {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 900px;
+    background-color: #979797;
+    border-radius: 8px;
+}
+
+.componente, .herramienta, .cable {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.componente img, .herramienta img, .cable img {
+    max-width: 150px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9em;
+}
+
+video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height:120%;
+    z-index: -1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #2e2e2e;
+    color: #f0f0f0;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3b3b3b;
+}
+
+td {
+    background-color: #2e2e2e;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #3b3b3b;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #333;
+}
+
